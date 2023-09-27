@@ -7,7 +7,8 @@ GUIDE
 3. "example_80x80_4x4_2.m": generate a 80x80 lattice F with 4x4 G and k=2.
 4. "example_torus_4x4_2.m": generate an F on a torus with 4x4 G and k=2 (the Fig.3 in the paper).
 ************************************************************************************************************
-QUICK_START
+QUICK START
+
 The paper is unavailable yet, thus we offer some comments below for a quick start:
 1. F is marker field.
 2. G is ID tag shape.
