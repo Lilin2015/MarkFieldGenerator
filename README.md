@@ -19,4 +19,7 @@ NOTE
 1. To generate marker fields on arbitrary solids, we use Blender to mesh the surface (https://www.blender.org).
 2. You must build the index matrix D by yourselves. This is easy if F is regular. For more complex F, we use the VF3 algorithm (https://github.com/MiviaLab/vf3lib);
 3. Due to some matrix operations in this new generator, we can not utilize the built-in functions of OpenCV to boost the speed, as we did in the previous work "fast-bWFC". Therefore, the C++ version requires a higher programming skill that we do not have. It is worth noting that, in fact, the new generator and fast-bWFC share the same complexity (see Sec.6.2 of the paper), and they should have similar speeds with proper code optimization. Currently, the Matlab version is practical enough, which can also generate large marker fields in minutes, and it is faster than the Matlab version of fast-bWFC.
- 
+************************************************************************************************************
+NEXT UPDATE
+
+Waiting for the paper.
